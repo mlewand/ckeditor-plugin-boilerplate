@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Custom list markers</title>
+</head>
+<body>
+	<textarea id="editor1"></textarea>
+<script>
+	CKEDITOR.plugins.addExternal( 'boilerplate', '/apps/plugin/plugin.js' );
+
+	 CKEDITOR.replace( 'editor1', {
+		extraPlugins: 'boilerplate',
+		language: 'en'
+	} );
+</script>
+</body>
+</html>
