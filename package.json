@@ -4,7 +4,8 @@
   "description": "A boilerplate for quick CKEditor 4 plugin development.",
   "main": "plugin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/benderjs-cli/bin/bender run chrome",
+    "test-server": "node ./node_modules/benderjs-cli/bin/bender server run"
   },
   "keywords": [
     "ckeditor4",
@@ -15,6 +16,7 @@
   "license": "MIT",
   "devDependencies": {
     "benderjs": "^0.4.1",
+    "benderjs-cli": "^0.1.1",
     "benderjs-coverage": "^0.2.1",
     "benderjs-yui": "^0.3.3",
     "ckeditor-dev": "^4.6.2",
