@@ -1,0 +1,16 @@
+{
+  "name": "ckeditor-plugin-boilerplate",
+  "version": "0.1.0",
+  "description": "A boilerplate for quick CKEditor 4 plugin development.",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ckeditor4",
+    "plugin",
+    "boilerplate"
+  ],
+  "author": "Marek Lewandowski",
+  "license": "MIT"
+}
