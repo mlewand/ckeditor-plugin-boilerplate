@@ -8,38 +8,16 @@ CKEDITOR.editorConfig = function( config ) {
 		'a11yhelp,' +
 		'basicstyles,' +
 		'clipboard,' +
-		'colorbutton,' +
-		'contextmenu,' +
-		'dialogadvtab,' +
 		'elementspath,' +
 		'enterkey,' +
-		'floatingspace,' +
-		'font,' +
-		'format,' +
 		'htmlwriter,' +
-		'image,' +
 		'indentlist,' +
-		'indentblock,' +
-		'justify,' +
 		'link,' +
 		'list,' +
-		'liststyle,' +
-		'magicline,' +
-		'maximize,' +
-		'newpage,' +
-		'pastefromword,' +
-		'pastetext,' +
-		'preview,' +
 		'removeformat,' +
 		'resize,' +
-		'selectall,' +
-		'showblocks,' +
-		'showborders,' +
 		'sourcearea,' +
 		'stylescombo,' +
-		'tab,' +
-		'table,' +
-		'tabletools,' +
 		'toolbar,' +
 		'undo,' +
 		'wysiwygarea';
