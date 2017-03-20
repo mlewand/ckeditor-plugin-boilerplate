@@ -17,7 +17,7 @@ CKEDITOR.editorConfig = function( config ) {
 		'removeformat,' +
 		'resize,' +
 		'sourcearea,' +
-		'stylescombo,' +
+		'format,' +
 		'toolbar,' +
 		'undo,' +
 		'wysiwygarea';
