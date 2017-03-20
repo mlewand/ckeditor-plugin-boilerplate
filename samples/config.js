@@ -28,6 +28,6 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.plugins += ',customplugin';
 
 
-	CKEDITOR.plugins.addExternal( 'boilerplate', location.href.replace( '/index.html', '' ) + '/../plugin.js' );
+	CKEDITOR.plugins.addExternal( 'boilerplate', location.href.replace( /\/(?:index\.html)?$/, '' ) + '/../plugin.js' );
 	config.plugins += ',boilerplate';
 };
