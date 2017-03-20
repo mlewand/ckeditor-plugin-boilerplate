@@ -1,0 +1,13 @@
+{
+	"env": {
+		"browser": true,
+		"mocha": true
+	},
+	"extends": "eslint-config-ckeditor4",
+	"globals": {
+		"bender": true,
+		"assert": true,
+		"assertObject": true,
+		"assertArray": true
+	}
+}

@@ -20,6 +20,7 @@
     "benderjs-coverage": "^0.2.1",
     "benderjs-yui": "^0.3.3",
     "ckeditor-dev": "^4.6.2",
+    "eslint-config-ckeditor4": "^1.0.0",
     "resolve-pkg": "^1.0.0"
   }
 }
